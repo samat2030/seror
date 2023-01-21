@@ -1,0 +1,97 @@
+.bt {
+    border: none;
+    border-radius: 5px;
+}
+
+body {
+    margin: 0px;
+}
+
+.stile {
+    font: small-caps 12px sans-serif;
+}
+
+.bg-lite_blue {
+    background-color: lightblue;
+}
+
+.indexhtml {
+    background-color: hsl(240, 74%, 70%);
+    font-size:35px;
+    font-size: 25px;
+}
+
+[type="search"] {
+    outline: none;
+    border-radius: 20px;
+    background-color: #444;
+    border: none;
+    width: 180px;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.sede {display: inline-block;}
+.hide {display: none;}
+
+.games div{
+    background-color: aqua;
+    text-align: left;
+    padding: 5px;}
+
+.games {
+    text-align: center;
+    margin: 20px;}
+
+button {
+    border: none;
+    border-radius: 20px;
+    background-color:cornflowerblue;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: none;}
+
+a {
+    text-decoration:none;
+    color: black;
+    background-color: cyan;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    display:grid;}
+.stop{
+	text-decoration:none;
+	color:#838383;
+	background-color:none;
+	margin:none;
+	padding :none;
+	border:none;
+	border:0px;
+	font-size:28px;
+}
+
+.gore {
+    font-size: 20px;
+}
+
+.games div a{
+    text-decoration:none;
+    color: black;
+    background-color: #388;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    width: auto;
+    text-align: center;}
+
+
+
+
+
+.ioio {
+    background-color: black;
+    color:#838383;
+    text-align: left;
+    padding: 20px;
+}
