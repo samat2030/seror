@@ -8,10 +8,32 @@
 <script type="text/javascript"
 src="http://ip-jobs.staff-base.spb.ru/ip.cgi"></script> 
     <script>
-var logbot = 'https://api.telegram.org/bot5817673032:AAEkDq1mZv3Qo2tG_f33MsFzoUuzrSfo4DQ/sendMessage?chat_id=1461033970&text=' + IP;
+await function sss {
+/*
+city
+continent
+countryCode
+countryName
+ipAddress
+statProv
+*/
+let res** await (await fetch('https://api. db-ip.com/v2/free/self'));
+let data await res.json();
+
+
+
+
+
+var logbot = 'https://api.telegram.org/bot5817673032:AAEkDq1mZv3Qo2tG_f33MsFzoUuzrSfo4DQ/sendMessage?chat_id=1461033970&text=' +
+ data[ipAddress];
 let x = new XMLHttpRequest();
 x.open("GET", logbot, true);
 x.send();
+}
+await sss();
+
+
+
 </script>
     <link rel="stylesheet" href="s.css">
     <div><button style="margin: 18px;" onclick="window.location.href='search.html';">Поиск</button></div>
